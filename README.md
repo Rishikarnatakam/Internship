@@ -78,8 +78,6 @@ src/
 │   └── useBurnRate.tsx # Data streaming simulation
 ├── data/               # Mock data
 │   └── demo.ts         # Financial demo data
-├── artifacts/          # Data schemas
-│   └── burnRateArtifact.ts
 └── main.tsx           # App entry point
 ```
 

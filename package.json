@@ -11,12 +11,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "recharts": "^2.5.0",
-    "framer-motion": "^7.6.8",
-    "clsx": "^1.2.1",
-    "axios": "^1.4.0",
-    "@ai-sdk-tools/store": "*",
-    "@ai-sdk-tools/artifacts": "*",
-    "@ai-sdk-tools/devtools": "*"
+    "framer-motion": "^7.6.8"
   },
   "devDependencies": {
     "vite": "^5.0.0",

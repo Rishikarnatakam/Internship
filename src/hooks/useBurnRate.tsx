@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import { burnRateArtifact } from '../artifacts/burnRateArtifact'
 import { demoFinancials } from '../data/demo'
 
 type BurnData = any
