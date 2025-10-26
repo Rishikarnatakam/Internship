@@ -1,0 +1,25 @@
+Vite React TypeScript project to reproduce Midday dashboard UI from screenshots.
+
+Steps to run locally:
+1. npm create vite@latest midday-dashboard -- --template react-ts
+2. cd midday-dashboard
+3. npm install
+4. npm install tailwindcss postcss autoprefixer recharts framer-motion clsx axios
+5. npm install @ai-sdk-tools/store @ai-sdk-tools/artifacts @ai-sdk-tools/devtools
+6. npx tailwindcss init -p
+
+Files added by assistant will include:
+- src/main.tsx
+- src/App.tsx
+- src/index.css (Tailwind + tokens)
+- src/components/Sidebar.tsx
+- src/components/Topbar.tsx
+- src/components/CanvasLayout.tsx
+- src/components/AnalysisPanel.tsx
+- src/components/MessageStream.tsx
+- src/components/Composer.tsx
+- src/data/demo.ts
+- tailwind.config.js
+- postcss.config.js
+
+
