@@ -52,7 +52,18 @@ export default function CanvasLayout(){
           <div className="overflow-y-auto" style={{ height: '87%' }}>
             <div className="py-4 space-y-4">
               <MessageStream data={data} progress={progress} status={status} started={started} onStart={handleStart} onTypingComplete={()=> setTypedDone(true)} />
-              <LeftFollowUps visible={showPills} items={data?.followUps || ['Analyze expense categories for potential cuts','Show cash flow projections for next 3 months','Compare monthly burn rate to previous year']} />
+              <LeftFollowUps visible={showPills} items={data?.followUps || [
+                'Compare monthly burn rate to previous year',
+                'Show cash flow projections for next 3 months', 
+                'Identify funding options before cash runway ends',
+                'Analyze expense categories for potential cuts',
+                'Create budget scenarios for different growth rates',
+                'Review monthly recurring revenue trends',
+                'Calculate break-even point timeline',
+                'Assess seasonal spending patterns',
+                'Optimize operational efficiency metrics',
+                'Plan emergency fund requirements'
+              ]} />
             </div>
           </div>
 
@@ -81,7 +92,18 @@ export default function CanvasLayout(){
               <div className="overflow-y-auto" style={{ height: '87%' }}>
                 <div className="py-4 space-y-4">
                   <MessageStream data={data} progress={progress} status={status} started={started} onStart={handleStart} onTypingComplete={()=> setTypedDone(true)} showFeedbackIcons={showPills} />
-                  <LeftFollowUps visible={showPills} items={data?.followUps || ['Analyze expense categories for potential cuts','Show cash flow projections for next 3 months','Compare monthly burn rate to previous year']} />
+                  <LeftFollowUps visible={showPills} items={data?.followUps || [
+                    'Compare monthly burn rate to previous year',
+                    'Show cash flow projections for next 3 months', 
+                    'Identify funding options before cash runway ends',
+                    'Analyze expense categories for potential cuts',
+                    'Create budget scenarios for different growth rates',
+                    'Review monthly recurring revenue trends',
+                    'Calculate break-even point timeline',
+                    'Assess seasonal spending patterns',
+                    'Optimize operational efficiency metrics',
+                    'Plan emergency fund requirements'
+                  ]} />
                 </div>
               </div>
 

@@ -48,7 +48,18 @@ export function useBurnRate(simulate = true){
       // complete
       setProgress(1)
       setStatus('complete')
-      setData(prev=>({ ...prev, chart: { labels: demoFinancials.months, current: demoFinancials.currentMonthlySeries, average: demoFinancials.averageSeries }, summary: demoFinancials.summary, followUps: ['Compare monthly burn rate to previous year','Show cash flow projections for next 3 months','Identify funding options before cash runway ends'] }))
+      setData(prev=>({ ...prev, chart: { labels: demoFinancials.months, current: demoFinancials.currentMonthlySeries, average: demoFinancials.averageSeries }, summary: demoFinancials.summary, followUps: [
+        'Compare monthly burn rate to previous year',
+        'Show cash flow projections for next 3 months', 
+        'Identify funding options before cash runway ends',
+        'Analyze expense categories for potential cuts',
+        'Create budget scenarios for different growth rates',
+        'Review monthly recurring revenue trends',
+        'Calculate break-even point timeline',
+        'Assess seasonal spending patterns',
+        'Optimize operational efficiency metrics',
+        'Plan emergency fund requirements'
+      ] }))
     }, 8000)
 
     return ()=>{ cancelled = true; clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); clearTimeout(t4); clearTimeout(t5) }
